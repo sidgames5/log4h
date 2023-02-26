@@ -1,0 +1,13 @@
+{
+  "name": "log4h",
+  "url": "https://github.com/BasicCorruption/log4h/",
+  "license": "GPL",
+  "tags": ["logger"],
+  "description": "This library is useless in the same way on every platform.",
+  "version": "1.0.0-alpha.1",
+  "classPath": "src/",
+  "releasenote": "First version",
+  "contributors": ["SidGames5"],
+  "dependencies": {},
+  "main": "com.sidgames5.log4h.Logger"
+}
