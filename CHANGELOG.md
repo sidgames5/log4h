@@ -1,22 +1,17 @@
-# 1.0.0-alpha.1
+# 1.0.0-alpha.2
 
-## Summary
-
-First version of the library
+Add some new logging functions and changed log format
 
 ## Additions
 
-- Added info function to log general info
-- Added log function to log anything
+- Added debug log function
+- Added warning log function
+- Added error log function
 
 ## Changes
 
-- No changes in this update
+- Changed format of logs from `DateTime: text` to `[LogType] DateTime: text`
 
 ## Removals
 
-- No removals in this update
-
 ## Bug Fixes
-
-- No bugs fixed in this update

@@ -4,9 +4,9 @@ Log4h is a simple library for logging in Haxe.
 
 ## Development Roadmap
 
-- Full logging functionality
-- Saving logs to a file
-- Searching previous logs
+- April 2023 | Full logging functionality
+- May 2023 | Saving logs to a file
+- June 2023 | Searching previous logs
 
 ## Docs
 

@@ -3,11 +3,13 @@
   "url": "https://github.com/BasicCorruption/log4h/",
   "license": "GPL",
   "tags": ["logger"],
-  "description": "This library is useless in the same way on every platform.",
-  "version": "1.0.0-alpha.1",
+  "description": "This is a simple logging library for haxe",
+  "version": "1.0.0-alpha.2",
   "classPath": "src/",
-  "releasenote": "First version",
+  "releasenote": "Add some new logging functions and changed log format",
   "contributors": ["SidGames5"],
-  "dependencies": {},
+  "dependencies": {
+    "console.hx": "0.2.15"
+  },
   "main": "com.sidgames5.log4h.Logger"
 }
