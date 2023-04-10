@@ -1,17 +1,18 @@
-# 1.0.0-alpha.2
+# 1.0.0-beta.1
 
-Add some new logging functions and changed log format
+Finish new logging functions
 
 ## Additions
 
-- Added debug log function
-- Added warning log function
-- Added error log function
+- Finish warning log function
+- Finish error log function
 
 ## Changes
 
-- Changed format of logs from `DateTime: text` to `[LogType] DateTime: text`
-
 ## Removals
+
+## Technical updates
+
+- Switch to using Console.printlnFormatted instead of Console.debug, Console.warn, and Console.error
 
 ## Bug Fixes

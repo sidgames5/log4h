@@ -4,9 +4,9 @@
   "license": "GPL",
   "tags": ["logger"],
   "description": "This is a simple logging library for haxe",
-  "version": "1.0.0-alpha.2",
+  "version": "1.0.0-beta.1",
   "classPath": "src/",
-  "releasenote": "Add some new logging functions and changed log format",
+  "releasenote": "Finish new logging functions",
   "contributors": ["SidGames5"],
   "dependencies": {
     "console.hx": "0.2.15"

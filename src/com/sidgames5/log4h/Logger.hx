@@ -4,16 +4,20 @@ import haxe.exceptions.NotImplementedException;
 
 class Logger {
 	public static function info(text:Any) {
-		Console.println("[INFO] " + Date.now().toString() + ": " + text + "\r\n");
+		Console.println("[INFO] " + Date.now().toString() + ": " + text);
 	}
 
 	public static function debug(text:Any) {
-		Console.debug("[DEBUG] " + Date.now().toString() + ": " + text + "\r\n");
+		Console.printlnFormatted("<#7f7f7f>[DEBUG] " + Date.now().toString() + ": " + text + "</>");
 	}
 
-	public static function warn(text:Any) {}
+	public static function warn(text:Any) {
+		Console.printlnFormatted("<#ff7f00>[WARN] " + Date.now().toString() + ": " + text + "</>");
+	}
 
-	public static function error(text:Any) {}
+	public static function error(text:Any) {
+		Console.printlnFormatted("<#ffffff>[ERROR] " + Date.now().toString() + ": " + text + "</>");
+	}
 
 	public static function log(type:LogType, text:Any) {
 		switch (type) {
